@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="container">
+    <h1>Welcome to the Home Page</h1>
+    </p>This is the Home Page of Group VI's Flask Web App. This is an interactive web where you can get in touch with us through the Contact Page.</p>
+    <a href="{{ url_for ('contact')}}" class="btn btn-primary">Learn More About Us</a>
+</div>
+{% endblock %}
